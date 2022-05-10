@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtView1"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:background="#FDD835"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        android:outlineProvider="background"
+        android:shadowColor="#FDD835"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColorLink="#150606"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/txtView"
+        app:layout_constraintEnd_toStartOf="@+id/txtView2"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/txtView2"
+        android:layout_width="140dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="64dp"
+        android:background="#FDD835"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:outlineProvider="background"
+        android:shadowColor="#C0CA33"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColorLink="#0E0202"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/txtView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtView1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="177dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="64dp"
+        android:background="#7CB342"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColorLink="#230404"
+        android:textSize="36sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/subtract_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="0" />
+
+    <Button
+        android:id="@+id/add_button"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginBottom="188dp"
+        android:text="+"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtract_button"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/subtract_button"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="56dp"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/multiply_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <Button
+        android:id="@+id/divide_button"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="188dp"
+        android:text="/"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/add_button"
+        app:layout_constraintTop_toTopOf="@+id/add_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/multiply_button"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="80dp"
+        android:text="*"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/subtract_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

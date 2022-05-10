@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Simple Lists</string>
+    <string name="button_send">Send</string>
+    <string name="edit_message">message</string>
+    <string name="textview">final message</string>
+    <string-array name="friends">
+      <item>Mary Fernado</item>
+      <item>Jack Sparo</item>
+       <item>Mike Sullivan</item>
+    </string-array>
+
+
+
+
+</resources>

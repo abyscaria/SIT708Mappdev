@@ -1,0 +1,8 @@
+{"friendslist":[
+  { "friendName":"John Smith", "state":"VIC","urlToImage": "" },
+  { "friendName":"Mel Gibson", "state":"NSW" ,"urlToImage": ""},
+  { "friendName":"Elizabeth Marc", "state":"SA" ,"urlToImage": ""},
+  { "friendName":"Tylor Swift", "state":"ACT" ,"urlToImage": ""},
+  { "friendName":"Anna Barton", "state":"NT" ,"urlToImage": ""},
+  { "friendName":"Peter Matson", "state":"TAS" ,"urlToImage": ""}
+]}

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RecyclerViews - My Friends</string>
+    <string name="button_send">Send</string>
+    <string name="edit_message">message</string>
+    <string name="textview">final message</string>
+
+    <string name="friend1">Mary Fernado</string>
+    <string name="friend2">Mary Popins</string>
+    <string name="friend3">Mary Thomas</string>
+
+    <string name="state1">NSW</string>
+    <string name="state2">VIC</string>
+    <string name="state3">TAS</string>
+
+    <string-array name="friends">
+     <item>Mary Fernado</item>
+     <item>Jack Sparo</item>
+     <item>Mike Sullivan</item>
+     <item>Mary Fernado</item>
+     <item>Mel Gibson</item>
+     <item>Mark Antony</item>
+    </string-array>
+    <string-array name="fstate">
+        <item>VIC</item>
+        <item>NSW</item>
+        <item>QLD</item>
+        <item>NT</item>
+        <item>ACT</item>
+        <item>SA</item>
+    </string-array>
+</resources>
