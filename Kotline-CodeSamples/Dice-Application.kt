@@ -5,6 +5,7 @@ fun main() {
     printCakeTop(age)
     printCakeBottom(age, layers)
 }
+//there is comment added to this code 
 
 fun printCakeCandles(age: Int) {
     print (" ")
