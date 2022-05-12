@@ -1,0 +1,4 @@
+#Sun May 08 17:44:48 AEST 2022
+base.0=E\:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

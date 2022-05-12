@@ -1,0 +1,152 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2019 Google Inc.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.treasureHunt"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="32" />
+24-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml
+25
+26    <!-- TODO: Step 1 add in permissions for fine location and background -->
+27\    
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:22:6-80
+28-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:22:23-77
+29    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+29-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:23:5-85
+29-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:23:22-82
+30
+31    <!-- Include required permissions for Google Maps API to run. -->
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+32-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+33    <uses-permission android:name="android.permission.INTERNET" />
+33-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+33-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:22-64
+34
+35    <uses-feature
+35-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+36        android:glEsVersion="0x00020000"
+36-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+37        android:required="true" />
+37-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+38
+39    <queries>
+39-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+40
+41        <!-- Needs to be explicitly declared on Android R+ -->
+42        <package android:name="com.google.android.apps.maps" />
+42-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+42-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+43    </queries>
+44
+45    <application
+45-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:24:5-44:19
+46        android:allowBackup="true"
+46-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:25:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.7.0] C:\Users\Abys\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_launcher"
+49-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:26:9-43
+50        android:label="@string/app_name"
+50-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:27:9-41
+51        android:roundIcon="@mipmap/ic_launcher_round"
+51-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:28:9-54
+52        android:supportsRtl="true"
+52-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:29:9-35
+53        android:testOnly="true"
+54        android:theme="@style/AppTheme" >
+54-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:30:9-40
+55        <activity
+55-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:32:9-41:20
+56            android:name="com.example.android.treasureHunt.HuntMainActivity"
+56-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:32:19-51
+57            android:exported="true"
+57-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:35:13-36
+58            android:label="@string/title_activity_hunt"
+58-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:33:13-56
+59            android:launchMode="singleInstance" >
+59-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:34:13-48
+60            <intent-filter>
+60-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:36:13-40:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:37:17-69
+61-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:37:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:39:17-77
+63-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:39:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <receiver android:name="com.example.android.treasureHunt.GeofenceBroadcastReceiver" />
+67-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:42:9-62
+67-->E:\AndroidStudio Examples\android-kotlin-geo-fences-starter\android-kotlin-geo-fences-starter\app\src\main\AndroidManifest.xml:42:19-60
+68
+69        <!-- Needs to be explicitly declared on P+ -->
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Abys\.gradle\caches\transforms-3\38b4f982191cd25097453b1c1b7c9d1b\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Abys\.gradle\caches\transforms-3\b60d654f6261f8074791e776910912e8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Abys\.gradle\caches\transforms-3\b60d654f6261f8074791e776910912e8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Abys\.gradle\caches\transforms-3\b60d654f6261f8074791e776910912e8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Abys\.gradle\caches\transforms-3\b60d654f6261f8074791e776910912e8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Abys\.gradle\caches\transforms-3\ccb471f7836e0148d4d1a386eddcf2e5\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Abys\.gradle\caches\transforms-3\ccb471f7836e0148d4d1a386eddcf2e5\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Abys\.gradle\caches\transforms-3\ccb471f7836e0148d4d1a386eddcf2e5\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Abys\.gradle\caches\transforms-3\b0ea43a9612251fcf995bc1b071462f7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Abys\.gradle\caches\transforms-3\b0ea43a9612251fcf995bc1b071462f7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+85            android:authorities="com.example.android.treasureHunt.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Abys\.gradle\caches\transforms-3\b0ea43a9612251fcf995bc1b071462f7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Abys\.gradle\caches\transforms-3\b0ea43a9612251fcf995bc1b071462f7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Abys\.gradle\caches\transforms-3\b0ea43a9612251fcf995bc1b071462f7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Abys\.gradle\caches\transforms-3\b0ea43a9612251fcf995bc1b071462f7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Abys\.gradle\caches\transforms-3\b0ea43a9612251fcf995bc1b071462f7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Abys\.gradle\caches\transforms-3\62e06fdb14d5abd60c5a2e8e03ce7ad2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Abys\.gradle\caches\transforms-3\62e06fdb14d5abd60c5a2e8e03ce7ad2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Abys\.gradle\caches\transforms-3\62e06fdb14d5abd60c5a2e8e03ce7ad2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+93        </provider>
+94    </application>
+95
+96</manifest>

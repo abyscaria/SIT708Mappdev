@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\font_della_respira.ttf.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\font\\della_respira.ttf"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\drawable_android_treasure.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\drawable\\android_treasure.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_hunt_main.xml.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\layout\\activity_hunt_main.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\drawable_android_map.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\drawable\\android_map.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_map_small.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\drawable-xxxhdpi\\map_small.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\AndroidStudio Examples\\android-kotlin-geo-fences-starter\\android-kotlin-geo-fences-starter\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    }
+]
