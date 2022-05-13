@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/android-lifecycles-master/app/src/main/res/layout/activity_main.xml" value="0.2947916666666667" />
+        <entry key="..\:/AndroidStudio/android-lifecycles-master/app/src/main/res/layout/chrono_activity_3.xml" value="0.4528302049755674" />
+        <entry key="..\:/AndroidStudio/android-lifecycles-master/app/src/main/res/layout/chrono_activity_databinding.xml" value="0.25905797101449274" />
+        <entry key="..\:/AndroidStudio/android-lifecycles-master/app/src/main/res/layout/fragment_step5.xml" value="0.25905797101449274" />
+        <entry key="..\:/AndroidStudio/android-lifecycles-master/app/src/main/res/layout/location_activity.xml" value="0.25905797101449274" />
+        <entry key="..\:/AndroidStudio/android-lifecycles-master/app/src/main/res/layout/saved_state_activity.xml" value="0.25905797101449274" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
